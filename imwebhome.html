@@ -20,7 +20,7 @@
         </p>
       </div>
       <div class="watermark">
-        <img src="https://github.com/jseongeon/imwebHome/blob/main/img/image_2420-removebg-preview.png?raw=true" alt="TEHERAN" class="watermark-img">
+        <div class="watermark-text">TEHERAN</div>
       </div>
     </div>
   </section>
@@ -106,10 +106,15 @@
       z-index: 1;
     }
     
-    .watermark-img {
-      width: 200px;
-      height: auto;
+    .watermark-text {
+      font-size: 120px;
+      font-weight: bold;
+      color: #e0e0e0;
       opacity: 0.1;
+      font-family: 'Arial', sans-serif;
+      letter-spacing: 8px;
+      line-height: 1;
+      user-select: none;
     }
     
     .scroll-fade {
@@ -165,8 +170,9 @@
         right: 20px;
       }
       
-      .watermark-img {
-        width: 150px;
+      .watermark-text {
+        font-size: 80px;
+        letter-spacing: 4px;
       }
     }
     
@@ -184,8 +190,9 @@
         font-size: 14px;
       }
       
-      .watermark-img {
-        width: 120px;
+      .watermark-text {
+        font-size: 60px;
+        letter-spacing: 2px;
       }
     }
     
@@ -324,4 +331,3 @@
       typing();
     }
   </script>
-  
